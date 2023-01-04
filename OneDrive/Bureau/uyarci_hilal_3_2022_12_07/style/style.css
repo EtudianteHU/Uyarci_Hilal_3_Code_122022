@@ -1,0 +1,31 @@
+header {
+    font-family: "Shrikhand", cursive;
+    text-align: center;
+    box-shadow: 0 0 0.5rem rgb(0 0 0 / 25%);
+    padding: 0.3rem;
+    position: relative;
+}
+
+/* EXPLORER     */
+
+.explorer {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 0px 10px;
+}
+.explorer h2 {
+}
+.explorer button {
+    color: white;
+    font-weight: 300;
+    font-size: 0.8em;
+    background-image: linear-gradient(
+        to top,
+        rgba(147, 86, 220, 0.9),
+        rgba(255, 121, 218, 0.9)
+    );
+    border: none;
+    padding: 20px 34px;
+    border-radius: 39px;
+    box-shadow: 2px 1px 16px -3px #000000;
+}
