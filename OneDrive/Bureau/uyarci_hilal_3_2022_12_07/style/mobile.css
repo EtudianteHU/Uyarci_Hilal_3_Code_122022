@@ -7,12 +7,23 @@ body {
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
+header {
+    text-align: center;
+    box-shadow: 0px 0px 0.5rem rgba(0 0 0/25%);
+    padding: 15px;
+}
+header img {
+    width: 125px;
+    height: 24px;
+    padding-top: 12px;
+    text-align: center;
+}
 .city {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 12px;
-    background-color: #ebe6e6;
+    background-color: #eaeaea;
     text-align: center;
     padding: 13px 13px 13px 69px;
 }
@@ -28,18 +39,14 @@ a {
     text-decoration: none;
     color: inherit;
 }
-.img {
-    width: 125px;
-    height: 24px;
-    padding-top: 12px;
-    align-items: center;
-}
+
 .explorer {
     margin-bottom: 40px;
+    background-color: #f6f6f6;
 }
 .explorer h2 {
     font-size: 1.2em;
-    padding-left: 5px;
+    padding: 20px;
     margin-top: 0px;
     text-align: center;
 }
@@ -47,7 +54,7 @@ a {
     margin-bottom: 30px;
     text-align: center;
 }
-.explorer button {
+button {
     color: white;
     font-weight: 300;
     font-size: 14px;
@@ -56,11 +63,14 @@ a {
         rgba(147, 86, 220, 0.9),
         rgba(255, 121, 218, 0.9)
     );
-    border: none;
+    border: 0px;
     padding: 10px 18px;
     border-radius: 39px;
     box-shadow: 2px 1px 16px -3px #000000;
-    margin-bottom: 47px;
+    margin-bottom: 20px;
+}
+.button {
+    text-align: center;
 }
 .tuto {
     counter-reset: steps;
@@ -70,7 +80,7 @@ a {
 
 .tuto h2 {
     font-size: 1.2em;
-    margin-bottom: 25px;
+    margin-bottom: 22px;
 }
 .tuto li::before {
     content: counter(steps);
@@ -106,6 +116,7 @@ a {
     padding: 0px 10px;
     flex-direction: column;
 }
+
 span {
     border: 2px solid black;
     width: 20px;
@@ -115,10 +126,6 @@ span {
 }
 .list {
     display: flex;
-}
-.tuto i {
-    color: lightgray;
-    margin-right: 22px;
 }
 
 .menus h2 {
@@ -145,7 +152,6 @@ span {
     position: absolute;
     height: 29px;
     width: 80px;
-    background-color: #99e2d0;
     text-align: center;
     display: inline-flex;
     justify-content: center;
@@ -153,6 +159,9 @@ span {
     right: 10px;
     top: 15px;
     border-radius: 5px;
+    background-color: #99e2d0;
+    color: #35a78a;
+    font-weight: bold;
 }
 .menus img {
     width: 100%;
@@ -164,7 +173,9 @@ span {
 .description {
     display: flex;
 }
-
+.card_description {
+    padding: 10px;
+}
 .card_description h3,
 .card_description p {
     margin: 0;
@@ -172,7 +183,9 @@ span {
     font-size: 0.9em;
     margin-bottom: 4px;
     margin-left: 10px;
+    width: 100%;
 }
+
 .card_description i {
     font-size: 20px;
     position: absolute;
