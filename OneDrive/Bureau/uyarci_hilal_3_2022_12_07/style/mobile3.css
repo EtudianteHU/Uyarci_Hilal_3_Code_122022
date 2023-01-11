@@ -11,11 +11,9 @@ body {
 header img {
     width: 131px;
     height: 28px;
-    margin-right: 81px;
 }
 .left-logo {
     display: flex;
-    justify-content: space-around;
 }
 .francaise_image img {
     width: 100%;

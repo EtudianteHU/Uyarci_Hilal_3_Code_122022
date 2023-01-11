@@ -95,9 +95,13 @@ button {
     justify-content: center;
     position: absolute;
     left: -8px;
+    bottom: 30px;
 }
 .tuto i {
-    margin-left: 13px;
+    margin: 13px;
+}
+.tuto li :hover {
+    color: #9356dc;
 }
 .tuto li {
     background-color: #f6f6f6;

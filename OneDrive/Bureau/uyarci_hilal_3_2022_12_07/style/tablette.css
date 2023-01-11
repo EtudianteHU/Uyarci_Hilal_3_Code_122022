@@ -11,7 +11,7 @@ body {
     gap: 12px;
     background-color: #eaeaea;
     text-align: center;
-    padding: 13px 13px 13px 69px;
+    padding: 20px 16px 16px 69px;
 }
 .city i {
     font-size: 15px;
@@ -29,34 +29,38 @@ header {
     text-align: center;
 }
 img {
-    width: 125px;
-    height: 24px;
+    width: 200px;
+    height: 35px;
     padding-top: 12px;
+    margin-bottom: 8px;
 }
 .explorer {
     margin-bottom: 40px;
+    background-color: #f6f6f6;
 }
 .explorer h2 {
-    font-size: 1.2em;
+    font-size: 1.9em;
     padding-left: 5px;
     margin-top: 0;
     text-align: center;
+    padding: 20px;
 }
 .explorer p {
     margin-bottom: 30px;
     text-align: center;
+    font-size: 1.3em;
 }
 .explorer button {
     color: white;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 16px;
     background-image: linear-gradient(
         to top,
         rgba(147, 86, 220, 0.9),
         rgba(255, 121, 218, 0.9)
     );
     border: none;
-    padding: 10px 18px;
+    padding: 16px 41px;
     border-radius: 39px;
     box-shadow: 2px 1px 16px -3px #000000;
     margin-bottom: 47px;
@@ -71,7 +75,7 @@ img {
 }
 
 .tuto h2 {
-    font-size: 1.2em;
+    font-size: 1.6em;
     margin-bottom: 25px;
 }
 .tuto li::before {
@@ -100,10 +104,13 @@ img {
     list-style-type: none;
     margin-bottom: 20px;
     position: relative;
+    font-size: 1.2em;
+}
+.tuto li :hover {
+    color: #9356dc;
 }
 .tuto ol {
     padding-left: 0px;
-    display: inline-flex;
     column-gap: 30px;
 }
 span {
@@ -123,26 +130,25 @@ span {
 }
 
 .menus h2 {
-    padding: 20px 0px;
+    padding: 20px 20px;
     margin: 0px;
-    font-size: 1.3em;
+    font-size: 1.6em;
 }
 .menus {
     background-color: #f3f3f3;
     margin-bottom: 20px;
 }
 .menus_cards {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 105px;
+    margin: 20px;
 }
 .menus a {
-    width: 43%;
     margin-bottom: 20px;
     border-radius: 16px 16px 16px 16px;
     position: relative;
     background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 20%);
+    display: flex;
+    flex-direction: column;
 }
 .menus a::before {
     content: "Nouveau";
@@ -177,7 +183,7 @@ span {
 .card_description p {
     margin: 0;
     position: relative;
-    font-size: 0.9em;
+    font-size: 1.2em;
     margin-bottom: 4px;
     margin-left: 10px;
 }
@@ -195,15 +201,14 @@ footer h2 {
     color: white;
     font-family: "Shrikhand", "sans-serif";
     font-weight: 500;
-    margin-left: 20px;
-    font-size: 0.9em;
+    margin-left: 30px;
+    font-size: 1.2em;
 }
 footer p {
     color: white;
-    margin-left: 20px;
-    font-size: 0.8em;
+    font-size: 1.2em;
     margin: 0px;
-    margin-left: 18px;
+    margin-left: 30px;
     margin-bottom: 5px;
 }
 
