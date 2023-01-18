@@ -1,31 +1,30 @@
-header {
-    font-family: "Shrikhand", cursive;
-    text-align: center;
-    box-shadow: 0 0 0.5rem rgb(0 0 0 / 25%);
-    padding: 0.3rem;
-    position: relative;
+footer {
+    border: 1px solid darkgrey;
+    background-color: #353535;
 }
-
-/* EXPLORER     */
-
-.explorer {
-    text-align: center;
-    background-color: #f2f2f2;
-    padding: 0px 10px;
-}
-.explorer h2 {
-}
-.explorer button {
+footer h2 {
     color: white;
-    font-weight: 300;
-    font-size: 0.8em;
-    background-image: linear-gradient(
-        to top,
-        rgba(147, 86, 220, 0.9),
-        rgba(255, 121, 218, 0.9)
-    );
-    border: none;
-    padding: 20px 34px;
-    border-radius: 39px;
-    box-shadow: 2px 1px 16px -3px #000000;
+    font-family: "Shrikhand", "sans-serif";
+    font-weight: 500;
+    margin-left: 20px;
+    font-size: 1.2em;
+}
+footer p {
+    color: white;
+    margin-left: 20px;
+    font-size: 1.2em;
+    margin: 0px;
+    margin-left: 18px;
+    margin-bottom: 5px;
+}
+
+footer i {
+    color: white;
+    margin-right: 7px;
+}
+.fa-utensils {
+    font-size: 10px;
+}
+.fa-handshake-simple {
+    font-size: 8px;
 }

@@ -7,6 +7,8 @@
 body {
     margin: 0px;
     font-family: "Roboto", sans-serif;
+    margin: auto;
+    max-width: 1400px;
 }
 header img {
     width: 194px;
@@ -52,16 +54,25 @@ header img {
 }
 .menus_category {
     margin-bottom: 20px;
+    overflow: hidden;
 }
 .menus {
     padding: 8px;
+    width: 30%;
 }
 .menu-item {
     border-radius: 15px;
     background-color: white;
     display: flex;
     box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 20%);
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    animation: slide-in-bottom 2s ease 0s 1 normal none;
 }
+
 .resto_francaise h2 {
     font-family: "Shrikhand", "cursive";
     font-size: 23px;
@@ -97,15 +108,25 @@ header img {
     font-size: 1em;
     margin-bottom: 13px;
 }
+.menus_category:hover .menu_item_check {
+    width: 25px;
+    padding: 0px 15px;
+}
+.menus_category .fa-circle-check {
+    transition: all 1s;
+}
+.menus_category:hover .fa-circle-check {
+    transform: rotate(360deg);
+}
 span {
     margin-left: auto;
     font-weight: 500;
     display: flex;
     margin-top: 39px;
+    margin-right: 15px;
 }
 .menu_item_check {
     background-color: #99e2d0;
-    width: 50px;
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
     display: flex;
@@ -114,10 +135,15 @@ span {
     flex-wrap: wrap;
     color: white;
     font-size: 1.3em;
+    width: 0px;
 }
 .order {
     text-align: center;
     margin-top: 20px;
+    opacity: 1;
+}
+.order:hover {
+    opacity: 0.8;
 }
 footer {
     border: 1px solid darkgrey;

@@ -136,7 +136,7 @@ span {
 }
 .menus {
     background-color: #f3f3f3;
-    margin-bottom: 20px;
+    padding-bottom: 32px;
 }
 .menus_cards {
     margin: 20px;
@@ -170,7 +170,7 @@ span {
 .menus img {
     width: 100%;
     height: 145px;
-    background-size: cover;
+    object-fit: cover;
     padding-top: 0px;
     border-radius: 10px 10px 0px 0px;
     object-fit: cover;

@@ -140,7 +140,7 @@ span {
 .menus {
     background-color: #f3f3f3;
     padding: 0 20px;
-    margin-bottom: 20px;
+    padding-bottom: 25px;
 }
 .menus a {
     width: 100%;
@@ -170,7 +170,7 @@ span {
 .menus img {
     width: 100%;
     height: 145px;
-    background-size: cover;
+    object-fit: cover;
     padding-top: 0px;
     border-radius: 10px 10px 0px 0px;
 }
