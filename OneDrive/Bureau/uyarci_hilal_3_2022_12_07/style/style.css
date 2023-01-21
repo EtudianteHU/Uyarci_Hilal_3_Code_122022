@@ -28,3 +28,57 @@ footer i {
 .fa-handshake-simple {
     font-size: 8px;
 }
+@keyframes page {
+    0% {
+        transform: translateY(50%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.menus_category {
+    @for $i from 1 through 3 {
+        &: nth-child(#{$i});
+        animation-delay: 100ms * $i;
+    }
+}
+
+.loader {
+    place-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    opacity: 0.9;
+    animation: disappear 200ms 2s forwards;
+    transform-origin: center;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+}
+.loader_wrapper {
+    display: flex;
+    width: 200px;
+    height: 100px;
+    left: 50%;
+    right: 50%;
+    @for $i from 1 through 4 {
+        &: nth-child(#{$i});
+        animation-delay: 100ms * $i;
+    }
+}
+.circle {
+    display: inline-block;
+    background-color: purple;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    transform: scale(0);
+    animation: grow 1.5s linear infinite;
+    margin: -10px;
+}

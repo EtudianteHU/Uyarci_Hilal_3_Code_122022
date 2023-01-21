@@ -52,10 +52,15 @@ header img {
     display: flex;
     flex-direction: column;
 }
+
 .menus_category {
     margin-bottom: 20px;
-    overflow: hidden;
+    @for $i from 2 through 4 {
+        &: nth-child(#{$i});
+        animation-delay: 100ms * $i;
+    }
 }
+
 .menus {
     padding: 8px;
     width: 30%;
@@ -65,12 +70,8 @@ header img {
     background-color: white;
     display: flex;
     box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 20%);
-    position: relative;
     overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    cursor: pointer;
-    animation: slide-in-bottom 2s ease 0s 1 normal none;
+    animation: page 2s ease 0s 1 normal none;
 }
 
 .resto_francaise h2 {
