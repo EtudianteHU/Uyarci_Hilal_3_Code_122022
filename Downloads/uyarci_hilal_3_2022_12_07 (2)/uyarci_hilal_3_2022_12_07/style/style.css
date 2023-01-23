@@ -1,10 +1,19 @@
 .left-long {
     padding-left: 10px;
+    align-self: center;
+}
+.left-logo {
+    display: flex;
 }
 .header img {
     margin: auto;
 }
-
+.header {
+    padding: 15px 0px;
+}
+.fa-arrow-left {
+    color: #000000;
+}
 footer {
     border: 1px solid darkgrey;
     background-color: #353535;
