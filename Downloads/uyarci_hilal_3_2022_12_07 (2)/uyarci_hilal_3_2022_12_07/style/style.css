@@ -1,3 +1,10 @@
+.left-long {
+    padding-left: 10px;
+}
+.header img {
+    margin: auto;
+}
+
 footer {
     border: 1px solid darkgrey;
     background-color: #353535;
@@ -43,6 +50,13 @@ footer p {
     transition: opacity 1s;
 }
 .order:hover {
+    opacity: 0.7;
+}
+.button {
+    opacity: 1;
+    transition: opacity 1s;
+}
+.button:hover {
     opacity: 0.7;
 }
 
@@ -152,11 +166,12 @@ footer i {
 @keyframes grow {
     0% {
         transform: scale(1);
-        100% {
-            transform: scale(0);
-        }
+    }
+    100% {
+        transform: scale(0);
     }
 }
+
 .loader_wrapper {
     display: flex;
     width: 200px;
