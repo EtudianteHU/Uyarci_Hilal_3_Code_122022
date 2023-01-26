@@ -25,12 +25,13 @@ header img {
     padding: 0px 20px;
 }
 
-.menus h3 {
+.menus h2 {
     font-weight: 100;
     font-size: 16px;
     position: relative;
+    margin-bottom: 23px;
 }
-.menus h3::after {
+.menus h2::after {
     top: 20px;
     content: "";
     width: 50px;
@@ -56,7 +57,7 @@ header img {
     display: flex;
     box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 20%);
 }
-.resto_francaise h2 {
+.resto_francaise h1 {
     font-family: "Shrikhand", "cursive";
     font-size: 23px;
     padding: 13px 10px;
@@ -71,7 +72,7 @@ header img {
     background-color: #f6f6f6;
 }
 
-.menu-item h4,
+.menu-item h3,
 .menu-item p {
     width: 200px;
     margin: 0px;
@@ -84,7 +85,7 @@ header img {
     white-space: nowrap;
     margin-left: 10px;
 }
-.menu-item h4 {
+.menu-item h3 {
     font-size: 1em;
     font-weight: 500;
     margin-top: 8px;
