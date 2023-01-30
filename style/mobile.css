@@ -26,6 +26,7 @@ header img {
     background-color: #ebeaea;
     text-align: center;
     padding: 13px 13px 13px 69px;
+    box-shadow: inset 0px 9px 10px -2px rgb(163, 163, 163, 0.7);
 }
 
 form input {
