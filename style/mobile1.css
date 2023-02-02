@@ -32,6 +32,9 @@ header img {
     justify-content: space-between;
     padding: 0px 20px;
 }
+.heart i {
+    bottom: -8px;
+}
 .menus h2 {
     font-weight: 100;
     font-size: 16px;

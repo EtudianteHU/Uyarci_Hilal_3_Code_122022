@@ -39,6 +39,9 @@ header img {
     justify-content: space-between;
     padding: 0px 20px;
 }
+.heart i {
+    bottom: -8px;
+}
 .menu-flex {
     display: flex;
     justify-content: center;
