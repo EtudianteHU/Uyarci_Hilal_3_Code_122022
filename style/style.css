@@ -79,17 +79,13 @@ footer p {
     box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 20%);
     margin-bottom: 47px;
     overflow: hidden;
-    transition: transform 1s ease-in-out;
+    transition: all 1s ease-in-out;
     text-decoration: none;
-    transform: scale(0);
+    opacity: 1;
 }
 
 .button:hover {
-    background: linear-gradient(
-        _ to bottom,
-        rgba(255, 121, 218, 0.8) 0%,
-        rgba(147, 86, 220, 0.8) 100%
-    );
+    opacity: 0.8;
     box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 40%);
     transform: scale(1.3);
 }
